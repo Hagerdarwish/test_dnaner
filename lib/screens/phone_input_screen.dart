@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:country_picker/country_picker.dart';
 
-import 'extentions/app_text_field.dart';
+import '../extentions/app_text_field.dart';
 
-class PhoneInputWithCountryPicker extends StatefulWidget {
-  const PhoneInputWithCountryPicker({super.key});
+class PhoneInputScreen extends StatefulWidget {
+  const PhoneInputScreen({super.key});
 
   @override
-  State<PhoneInputWithCountryPicker> createState() =>
-      _PhoneInputWithCountryPickerState();
+  State<PhoneInputScreen> createState() =>
+      _PhoneInputScreenState();
 }
 
-class _PhoneInputWithCountryPickerState
-    extends State<PhoneInputWithCountryPicker> {
+class _PhoneInputScreenState
+    extends State<PhoneInputScreen> {
   final TextEditingController phoneController = TextEditingController();
 
   Country selectedCountry = Country(

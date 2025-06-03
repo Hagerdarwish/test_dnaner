@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class LoginAuthPage extends StatefulWidget {
-  const LoginAuthPage({super.key});
+class ConfirmationScreen extends StatefulWidget {
+  const ConfirmationScreen({super.key});
 
   @override
-  State<LoginAuthPage> createState() => _LoginAuthPageState();
+  State<ConfirmationScreen> createState() => _ConfirmationScreenState();
 }
 
-class _LoginAuthPageState extends State<LoginAuthPage> {
+class _ConfirmationScreenState extends State<ConfirmationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

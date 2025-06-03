@@ -1,8 +1,8 @@
-import 'package:dnaner_test/signup_page.dart';
+import 'package:dnaner_test/screens/signup_page.dart';
 import 'package:flutter/material.dart';
 
-import 'login_auth_page.dart';
-import 'login_page.dart';
+import 'screens/confirmation_screen.dart';
+import 'screens/phone_input_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PhoneInputWithCountryPicker(),
+      home: const SignUpPage(),
     );
   }
 }

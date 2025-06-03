@@ -1,9 +1,9 @@
-import 'package:dnaner_test/login_auth_page.dart';
+import 'package:dnaner_test/screens/confirmation_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'extentions/app_text_field.dart';
-import 'extentions/password_field_validation.dart';
+import '../extentions/app_text_field.dart';
+import '../extentions/password_field_validation.dart';
 
 class SignUpPage extends StatelessWidget {
   const SignUpPage({super.key});
@@ -72,7 +72,7 @@ class SignUpPage extends StatelessWidget {
                     onPressed: (){
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const LoginAuthPage()),
+                        MaterialPageRoute(builder: (context) => const ConfirmationScreen()),
                       );
 
                     }, // disabled by default
